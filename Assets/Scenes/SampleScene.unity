@@ -393,7 +393,7 @@ GameObject:
   - component: {fileID: 591907663}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Grabbable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -758,6 +758,7 @@ GameObject:
   - component: {fileID: 1822300346}
   - component: {fileID: 1822300345}
   - component: {fileID: 1822300347}
+  - component: {fileID: 1822300348}
   m_Layer: 0
   m_Name: Input Controller
   m_TagString: Untagged
@@ -814,6 +815,19 @@ MonoBehaviour:
   minZoomDistance: 15
   maxZoomDistance: 30
   smoothTime: 0.17
+--- !u!114 &1822300348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822300344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7e296d3b3787b44ea188c94fff3989e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grabRange: 5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

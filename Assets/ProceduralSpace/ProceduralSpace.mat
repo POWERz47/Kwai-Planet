@@ -75,10 +75,10 @@ Material:
     - _Nebular1Strength: 0
     - _Nebular1scale: 1
     - _Nebular2Strength: 0.071
-    - _NumStars: 0.1
+    - _NumStars: 0.2
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Seed: 4.9557395
+    - _Seed: 5.1671233
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
